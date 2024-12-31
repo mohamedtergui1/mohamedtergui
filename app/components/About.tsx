@@ -53,7 +53,7 @@ export default function About() {
       >
         <div className="bg-gray-900 p-6 md:mx-0 mx-4 rounded-lg lg:w-[50%] w-[90%]   mb-8 ">
           <p className="gray md:text-lg text-sm">
-            Hi, I'm Mohamed Tergui, a developer based in Morocco. I bring a strong problem-solving mindset and technical proficiency to every project. With hands-on experience in Full-stack Engineering, I excel in collaborative environments.
+            Hi, I&apos;m Mohamed Tergui, a developer based in Morocco. I bring a strong problem-solving mindset and technical proficiency to every project. With hands-on experience in Full-stack Engineering, I excel in collaborative environments.
           </p>
 
           <p className="gray pt-4 md:text-lg text-sm">
