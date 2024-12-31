@@ -18,10 +18,10 @@ export default function Contact() {
       </div>
 
       <div className="flex gap-8 md:items-center md:justify-center justify-center md:order-3 order-2 items-end">
-        <Link href={"https://www.linkedin.com/in/armel-munyaneza-4b30a8201/"}>
+        <Link href={"https://www.linkedin.com/in/mohamed-tergui/"}>
           <FaLinkedin className="md:w-7 md:h-7 w-6 h-6  text-white" />
         </Link>
-        <Link href={"https://github.com/munyanezaarmel"}>
+        <Link href={"https://github.com/mohamedtergui1"}>
           <FaGithub className="md:w-7 md:h-7 w-6 h-6  text-white" />
         </Link>
       </div>
