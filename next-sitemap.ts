@@ -1,5 +1,5 @@
 module.exports = {
-    siteUrl: 'https://munyaneza.vercel.app/',
+    siteUrl: 'https://mohamedtergui.vercel.app/',
     generateRobotsTxt: true,
   };
   
