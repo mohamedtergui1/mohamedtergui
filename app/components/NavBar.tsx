@@ -10,7 +10,7 @@ export default function NavBar() {
     <div className="text-white text-poppins mt-12">
       <div className="md:flex md:justify-around md:items-center grid-cols-2 grid gap-y-4 md:px-0 px-5">
         <div className="md:col-span-1 order-1 sm:order-1">
-          <p className="md:text-3xl text-2xl">A.M portfolio</p>
+          <p className="md:text-3xl text-2xl">M.T portfolio</p>
         </div>
         <div className="flex md:gap-20 gap-8 md:text-lg text-nowrap text-sm font-medium md:col-span-1 order-3 sm:order-3  ">
           <ScrollLink

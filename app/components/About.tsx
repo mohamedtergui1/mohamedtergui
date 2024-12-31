@@ -39,7 +39,7 @@ export default function About() {
   return (
     <div className=" ">
       <h3 className="md:text-4xl md:ml-0 ml-4 text-xl text-white font-semibold mb-12 md:text-center text-start md:mt-48 mt-20">
-        About me
+        About Me
       </h3>
       <motion.div
         initial={{ y: 50 }}
@@ -53,20 +53,15 @@ export default function About() {
       >
         <div className="bg-gray-900 p-6 md:mx-0 mx-4 rounded-lg lg:w-[50%] w-[90%]   mb-8 ">
           <p className="gray md:text-lg text-sm">
-            As a dedicated software engineer, I bring a strong problem-solving
-            mindset and technical proficiency to every project. With hands-on
-            experience in Full-stack Engineering, I excel in collaborative
-            environments.
+            Hi, I'm Mohamed Tergui, a developer based in Morocco. I bring a strong problem-solving mindset and technical proficiency to every project. With hands-on experience in Full-stack Engineering, I excel in collaborative environments.
           </p>
 
           <p className="gray pt-4 md:text-lg text-sm">
-            With a passion for frontend development, I&apos;ve dedicated my
-            efforts to crafting seamless and visually stunning user interfaces
+            With a passion for frontend development, I&apos;ve dedicated my efforts to crafting seamless and visually stunning user interfaces.
           </p>
 
           <p className="gray pt-4 md:text-lg text-sm">
-            Let&apos;s connect and discuss how my skills can contribute to the
-            success of your projects
+            I am excited to work on robust applications that make a difference. Let&apos;s connect and discuss how my skills can contribute to the success of your projects.
           </p>
           <p className="gray pt-4 pb-4 md:text-lg text-sm">
             I build awesome products using:
@@ -78,7 +73,7 @@ export default function About() {
             </li>
             <li className="flex items-center">
               <span className="text-[#607b96] mr-2">*</span>
-              <p className="text-1 md:text-lg text-sm"> React</p>
+              <p className="text-1 md:text-lg text-sm">React</p>
             </li>
             <li className="flex items-center">
               <span className="text-[#607b96] mr-2">*</span>
@@ -90,7 +85,7 @@ export default function About() {
             </li>
             <li className="flex items-center">
               <span className="text-[#607b96] mr-2">*</span>
-              <p className="text-1 md:text-lg text-sm"> AWS</p>
+              <p className="text-1 md:text-lg text-sm">AWS</p>
             </li>
             <li className="flex items-center">
               <span className="text-[#607b96] mr-2">*</span>
@@ -101,7 +96,7 @@ export default function About() {
             <p className="gray md:text-base text-sm">Others:</p>
             <p className="text-1 md:text-base text-sm ">
               Git • Redux Toolkit • Java • Python • Jest • NodeJS • Nest JS •
-              opencv • SEO
+              OpenCV • SEO
             </p>
           </span>
         </div>
