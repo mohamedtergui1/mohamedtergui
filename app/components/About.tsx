@@ -4,35 +4,11 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    company: "The EnAccess Foundation",
+    company: "WemTech",
     position: "Software Engineer - Full-time",
-    startDate: "Oct 2024 ",
-    endDate: "Present",
-  },
-  {
-    company: "Knack Inc",
-    position: "Software Engineer - Full-time",
-    startDate: "Jul 2023 ",
-    endDate: "Oct 2024",
-  },
-  {
-    company: "ironji",
-    position: "Software Engineer intern - Full-time",
-    startDate: "May 2023",
-    endDate: "Jul 2023",
-  },
-  {
-    company: "oneuptime",
-    position: "open source developer - Full-time",
-    startDate: "Sep 2022",
-    endDate: "Jun 2023",
-  },
-  {
-    company: "Andela",
-    position: "Software Engineer Trainee - Full-time",
-    startDate: "Mar 2022",
-    endDate: "Nov 2022",
-  },
+    startDate: "5/2024",
+    endDate: "7/2024"
+  }
 ];
 
 export default function About() {
@@ -69,34 +45,33 @@ export default function About() {
           <ul className="grid grid-cols-3 gap-2">
             <li className="flex items-center">
               <span className="text-[#607b96] mr-2">*</span>
-              <p className="text-1 md:text-lg text-sm">Next.js</p>
+              <p className="text-1 md:text-lg text-sm">Java</p>
             </li>
             <li className="flex items-center">
               <span className="text-[#607b96] mr-2">*</span>
-              <p className="text-1 md:text-lg text-sm">React</p>
+              <p className="text-1 md:text-lg text-sm">Spring-Boot</p>
             </li>
             <li className="flex items-center">
               <span className="text-[#607b96] mr-2">*</span>
-              <p className="text-1 md:text-lg text-sm">TypeScript</p>
+              <p className="text-1 md:text-lg text-sm">Php</p>
             </li>
             <li className="flex items-center">
               <span className="text-[#607b96] mr-2">*</span>
-              <p className="text-1 md:text-lg text-sm">Tailwind CSS</p>
+              <p className="text-1 md:text-lg text-sm">Laravel</p>
             </li>
             <li className="flex items-center">
               <span className="text-[#607b96] mr-2">*</span>
-              <p className="text-1 md:text-lg text-sm">AWS</p>
+              <p className="text-1 md:text-lg text-sm">Vue.js</p>
             </li>
             <li className="flex items-center">
               <span className="text-[#607b96] mr-2">*</span>
-              <p className="text-1 md:text-lg text-sm">GraphQL</p>
+              <p className="text-1 md:text-lg text-sm">Angular</p>
             </li>
           </ul>
           <span className="flex gap-2 pt-4">
             <p className="gray md:text-base text-sm">Others:</p>
             <p className="text-1 md:text-base text-sm ">
-              Git • Redux Toolkit • Java • Python • Jest • NodeJS • Nest JS •
-              OpenCV • SEO
+            typescript,  docker, jenkins,  git
             </p>
           </span>
         </div>
@@ -112,7 +87,7 @@ export default function About() {
         whileHover={{ y: -10, transition: { duration: 0.2 } }}
         transition={{ duration: 0.5, ease: "easeIn", delay: 0.1 * 1 }}
       >
-        <ExperienceTimeline experiences={experiences} totalYears={3} />
+        <ExperienceTimeline experiences={experiences} totalYears={1/4} />
       </motion.div>
     </div>
   );

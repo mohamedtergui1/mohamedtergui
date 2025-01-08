@@ -4,101 +4,30 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 const projects = [
   {
-    "title": "Gahigi - AI Career Coach",
+    "title": "eBankify - Bank Account & Transaction Management",
     "description": 
-      "Meet Gahigi, your personal AI career coach. Designed to help young professionals in Rwanda, Gahigi offers personalized guidance and practical tools to kick-start your career. Whether you're preparing for interviews, building essential skills, or exploring the job market, Gahigi is your virtual mentor. Powered by AI, Gahigi provides tailored career advice, skill-building exercises, and interview simulations to boost your confidence and employability.",
+      "Welcome to eBankify, a comprehensive platform for managing bank accounts, transactions, and loans. Designed for both personal and business use, eBankify helps users keep track of their finances, make seamless transactions, and manage loans. With real-time updates, secure account management, and detailed transaction records, eBankify is the ideal solution for your banking needs.",
     "features": [
-      "Interview Practice: Simulates job interviews and offers constructive feedback.",
-      "Skill-Building Exercises: Interactive scenarios to develop essential workplace skills.",
-      "Personalized Career Advice: Tailored guidance based on individual strengths and interests.",
-      "Job Market Insights: Updates on entry-level opportunities in Rwanda's job market."
+      "Account Management: Allows users to manage multiple bank accounts and view transaction history.",
+      "Transaction Tracking: Enables users to make deposits, withdrawals, and transfer funds with ease.",
+      "Loan Management: Provides tools to apply for, track, and manage loans efficiently.",
+      "Real-time Updates: Offers instant updates on transaction statuses and loan repayments.",
+      "Financial Reporting: Detailed reports on account activity and loan balances."
     ],
     "technologies": [
-      { "name": "Next.js", "icon": "/nextdotjs.svg" },
-      { "name": "NestJS", "icon": "/nestjs.svg" },
-      { "name": "Material UI", "icon": "/mui.svg" },
-      { "name": "LLaMA", "icon": "/ollama.svg" },
-      { "name": "Mixtral AI", "icon": "/Mistral_AI.png" },
-      { "name": "Prompt Engineering", "icon": "/chatbot.svg" },
-      { "name": "GROQ API", "icon": "/groq.png" }
+      { "name": "Spring Boot", "icon": "/spring-boot.svg" },
+      { "name": "Spring Data", "icon": "/spring-data.svg" },
+      { "name": "Hibernate", "icon": "/hibernate.svg" },
+      { "name": "PostgreSQL", "icon": "/postgresql.svg" },
+      { "name": "Spring Security", "icon": "/spring-security.svg" },
+      { "name": "Docker", "icon": "/docker.svg" },
+      { "name": "JWT", "icon": "/jwt.svg" }
     ],
-    "livePreviewUrl": "https://gahigi.ini.rw/",
-    "githubUrl": "https://github.com/Gaahigi/gahigi-monorepo",
-    "imageSrc": "/gahigi.jpeg"
-},
+    "livePreviewUrl": "https://ebankify.example.com/",
+    "githubUrl": "https://github.com/YourUsername/ebankify",
+    "imageSrc": "/ebankify.jpeg"
+}
 
-  {
-    title: "UniConnect",
-    description:
-      "UniConnect is a dynamic social media platform designed for students and individuals to connect, share ideas, and engage with their communities. Built with a modern tech stack, UniConnect offers a rich set of features to foster interaction, creativity, and collaboration. Whether you're posting updates, liking and commenting on posts, following peers, or engaging in direct messaging, UniConnect provides a seamless and intuitive user experience across devices",
-    features: [
-      "Google OAuth: Secure authentication with Google",
-      "Push Notifications: Real-time updates powered by Stream.",
-      "Customizable Profiles: User profiles with personalization options.",
-      "Infinite Scrolling: Continuous content discovery.",
-      "File Uploads: Drag-and-drop and copy-paste support",
-      "Direct Messaging: Private messaging with real-time updates",
-      "Likes, Follows, and Comments: Standard social interaction features",
-    ],
-    technologies: [
-      { name: "Nextjs", icon: "/nextdotjs.svg" },
-      { name: "Tailwind CSS", icon: "/tailwindcss.svg" },
-      { name: "Prisma ", icon: "/prisma.svg" },
-      { name: "PostgresSQL ", icon: "/postgresql.svg" },
-      { name: "Lucia ", icon: "/lucia.svg" },
-      { name: "stream ", icon: "/streamlit.svg" },
-      { name: "React Query", icon: "/reactquery.svg" },
-      { name: "shadcn UI ", icon: "/shadcnui.svg" },
-    ],
-    livePreviewUrl: "https://uni-connect-omega.vercel.app/",
-    githubUrl: "https://github.com/munyanezaarmel/UniConnect",
-    imageSrc: "/uniconnect.png",
-  },
-  {
-    title: "Restaurant Finder",
-    description:
-      "Restaurant Finder  is a web application that simplifies the process of finding the perfect restaurant based on your preferred cuisine. Whether you're craving Indian, Italian, Chinese, or any other type of food, this app lets you easily discover nearby restaurants offering your desired cuisine. With seamless Google Maps integration, you can view restaurant locations on an interactive map, get real-time directions from your current location, and make your dining decisions with confidence",
-    features: [
-      "Cuisine-Based Search",
-      "Interactive Map",
-      "Real-Time Directions",
-      "Responsive Design",
-      "User authentication Google Auth",
-    ],
-    technologies: [
-      { name: "Nextjs", icon: "/nextdotjs.svg" },
-      { name: "Tailwind CSS", icon: "/tailwindcss.svg" },
-      { name: "Google Map ", icon: "/googlemaps.svg" },
-    ],
-    livePreviewUrl: "https://restaurant-finder-sigma.vercel.app/",
-    githubUrl: "https://github.com/munyanezaarmel/restaurantFinder",
-    imageSrc: "/restaurantFinder.png",
-  },
-
-  {
-    title: "Mark8",
-    description:
-      "This E-commerce web showcases the development of modern E-commerce web applications using Next.js. The project aims to deliver a seamless user experience for viewing and purchasing products",
-    features: [
-      "Browse products",
-      "Add products to the cart",
-      "Save favorite products",
-      "Filter products by category",
-      "View store products",
-      "Search for products and stores",
-      "User authentication (login and sign up)",
-    ],
-    technologies: [
-      { name: "Nextjs", icon: "/nextdotjs.svg" },
-      { name: "NestJS", icon: "/nestjs.svg" },
-      { name: "Tailwind CSS", icon: "/tailwindcss.svg" },
-      { name: "React Query", icon: "/reactquery.svg" },
-      { name: "Redux", icon: "/redux.svg" },
-    ],
-    livePreviewUrl: "https://mark8-m31j.vercel.app/",
-    githubUrl: "https://github.com/munyanezaarmel/mark8",
-    imageSrc: "/mark8.png",
-  },
 ];
 const hiddenMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 30px, rgba(0,0,0,1) 30px, rgba(0,0,0,1) 30px)`;
 const visibleMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 0px, rgba(0,0,0,1) 0px, rgba(0,0,0,1) 30px)`;
@@ -150,11 +79,6 @@ export default function Projects() {
                 ))}
               </div>
               <div className="flex justify-center items-center md:items-start md:justify-start flex-col sm:flex-row gap-4 md:mb-4">
-                <Link href={project.livePreviewUrl} target="_blank">
-                  <button className=" button back-gradient shadow-button w-full ">
-                    Live Preview
-                  </button>
-                </Link>
                 <Link href={project.githubUrl} target="_blank">
                   <button className="hidden md:block border border-white text-white px-4 py-2 rounded-full font-bold cursor-pointer transition-opacity duration-300 w-full sm:w-[226px] h-[78px] text-lg hover:opacity-80">
                     View on GitHub
