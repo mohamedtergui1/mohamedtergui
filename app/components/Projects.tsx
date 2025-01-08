@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { useState } from "react";
+
 const projects = [
   {
     "title": "eBankify - Bank Account & Transaction Management",
@@ -24,11 +25,11 @@ const projects = [
       { "name": "JWT", "icon": "/jwt.svg" }
     ],
     "livePreviewUrl": "https://ebankify.example.com/",
-    "githubUrl": "https://github.com/YourUsername/ebankify",
+    "githubUrl": "https://github.com/mohamedtergui1/ebankify",
     "imageSrc": "/ebankify.jpeg"
 }
-
 ];
+
 const hiddenMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 30px, rgba(0,0,0,1) 30px, rgba(0,0,0,1) 30px)`;
 const visibleMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 0px, rgba(0,0,0,1) 0px, rgba(0,0,0,1) 30px)`;
 

@@ -11,6 +11,7 @@ const experiences = [
   }
 ];
 
+
 export default function About() {
   return (
     <div className=" ">
@@ -87,7 +88,7 @@ export default function About() {
         whileHover={{ y: -10, transition: { duration: 0.2 } }}
         transition={{ duration: 0.5, ease: "easeIn", delay: 0.1 * 1 }}
       >
-        <ExperienceTimeline experiences={experiences} totalYears={1/4} />
+        <ExperienceTimeline experiences={experiences} totalYears={2} />
       </motion.div>
     </div>
   );

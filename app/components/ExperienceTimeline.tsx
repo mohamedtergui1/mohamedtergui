@@ -21,7 +21,6 @@ const ExperienceTimeline: React.FC<ExperienceTimelineProps> = ({
       <div className="bg-gray-900 p-6 rounded-lg lg:w-[50%] w-[90%] ">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text text-xl font-semibold">Experience</h2>
-          <span className="text-white">{totalYears} Years</span>
         </div>
         <ul className="relative border-l border-gray-700">
           {experiences.map((exp, index) => (
