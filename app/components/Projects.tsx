@@ -61,6 +61,24 @@ const projects = [
     imageSrc: "/taskflow.jpg",
   },
   {
+    "title": "MySchool - Gestion d'École",
+    "description": "Créer une application complète pour gérer les cours, les notes, et les absences des étudiants, avec un tableau de bord intuitif pour les enseignants et les administrateurs.",
+    "features": [
+      "Gestion des Étudiants: Ajouter, modifier et supprimer les étudiants.",
+      "Gestion des Cours: Création et planification des cours.",
+      "Gestion des Absences: Suivi des absences des étudiants.",
+      "Gestion des Notes: Enregistrement et consultation des notes.",
+      "Tableau de Bord: Visualisation des statistiques de l'école.",
+      "Authentification: Système de login sécurisé pour administrateurs et enseignants.",
+      "Recherche Dynamique: Rechercher des étudiants, cours ou absences."
+    ],
+    "technologies": ["Laravel", "Tailwind CSS", "Vue.js"],
+    "livePreviewUrl": "https://myschool.example.com/",
+    "githubUrl": "https://github.com/mohamedtergui1/myschool",
+    "imageSrc": "/myschool.jpg"
+  }
+  ,
+  {
     title: "E-commerce Application with Laravel Voyager",
     description:
       "Développer une application web e-commerce en utilisant Laravel Voyager, intégrant des fonctionnalités avancées de gestion des produits, des commandes, et offrant une expérience utilisateur optimale.",
