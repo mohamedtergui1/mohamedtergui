@@ -112,7 +112,7 @@ const projects = [
     ],
     technologies: ["HTML5", "Tailwind CSS", "JavaScript", "PHP 8", "MySQL"],
     livePreviewUrl: "https://wiki.example.com/",
-    githubUrl: "https://github.com/mohamedtergui1/wiki-cms",
+    githubUrl: "https://github.com/mohamedtergui1/Wiki_PHP_MVC",
     imageSrc: "/wiki.png",
   },
 ];
