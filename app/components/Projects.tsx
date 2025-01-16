@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { useState } from "react";
-
 const projects = [
   {
     title: "Citronix - Lemon Farm Management Application",
@@ -15,16 +14,10 @@ const projects = [
       "Gestion des Récoltes: Suivre les récoltes par saison.",
       "Gestion des Ventes: Enregistrer les ventes avec la date et le prix unitaire.",
     ],
-    technologies: [
-      { name: "Spring Boot", icon: "/spring-boot.svg" },
-      { name: "JPA/Hibernate", icon: "/jpa-hibernate.svg" },
-      { name: "Lombok", icon: "/lombok.svg" },
-      { name: "MapStruct", icon: "/mapstruct.svg" },
-      { name: "JUnit", icon: "/junit.svg" },
-    ],
+    technologies: ["Spring Boot", "JPA/Hibernate", "Lombok", "MapStruct", "JUnit"],
     livePreviewUrl: "https://citronix.example.com/",
     githubUrl: "https://github.com/mohamedtergui1/citronix",
-    imageSrc: "/citronix.jpeg",
+    imageSrc: "/citronix.jpg",
   },
   {
     title: "eBankify - Bank Account & Transaction Management",
@@ -38,19 +31,18 @@ const projects = [
       "Financial Reporting: Detailed reports on account activity and loan balances.",
     ],
     technologies: [
-      { name: "Spring Boot", icon: "/spring-boot.svg" },
-      { name: "Spring Data", icon: "/spring-data.svg" },
-      { name: "Hibernate", icon: "/hibernate.svg" },
-      { name: "PostgreSQL", icon: "/postgresql.svg" },
-      { name: "Spring Security", icon: "/spring-security.svg" },
-      { name: "Docker", icon: "/docker.svg" },
-      { name: "JWT", icon: "/jwt.svg" },
+      "Spring Boot",
+      "Spring Data",
+      "Hibernate",
+      "PostgreSQL",
+      "Spring Security",
+      "Docker",
+      "JWT"
     ],
     livePreviewUrl: "https://ebankify.example.com/",
     githubUrl: "https://github.com/mohamedtergui1/eBankify_add_spring_Security",
-    imageSrc: "/ebankify.jpeg",
+    imageSrc: "/ebankify.jpg",
   },
-
   {
     title: "Monolithic Task Management Application",
     description:
@@ -63,14 +55,10 @@ const projects = [
       "Gestion des jetons pour remplacer et supprimer des tâches.",
       "Vue d'ensemble des tâches assignées pour les responsables.",
     ],
-    technologies: [
-      { name: "Jakarta EE", icon: "/jakarta-ee.svg" },
-      { name: "PostgreSQL", icon: "/postgresql.svg" },
-      { name: "JUnit", icon: "/junit.svg" },
-    ],
+    technologies: ["Jakarta EE", "PostgreSQL", "JUnit"],
     livePreviewUrl: "https://monolithic-task-manager.example.com/",
     githubUrl: "https://github.com/mohamedtergui1/devsync",
-    imageSrc: "/monolithic-task-manager.jpeg",
+    imageSrc: "/taskflow.jpg",
   },
   {
     title: "E-commerce Application with Laravel Voyager",
@@ -83,15 +71,10 @@ const projects = [
       "Paiement Sécurisé: Intégrer des méthodes de paiement sécurisées.",
       "Tableau de Bord Administrateur: Créer un tableau de bord administrateur avec Laravel Voyager.",
     ],
-    technologies: [
-      { name: "Laravel Voyager", icon: "/laravel-voyager.svg" },
-      { name: "HTML", icon: "/html.svg" },
-      { name: "CSS", icon: "/css.svg" },
-      { name: "JavaScript", icon: "/javascript.svg" },
-    ],
+    technologies: ["Laravel Voyager", "HTML", "CSS", "JavaScript"],
     livePreviewUrl: "https://ecommerce.example.com/",
-    githubUrl: "https://github.com/mohamedtergui1/ecommerce",
-    imageSrc: "/ecommerce.jpeg",
+    githubUrl: "https://github.com/mohamedtergui1/Chrih_daba",
+    imageSrc: "/chrihdaba.webp",
   },
   {
     title: "Wiki Content Management System",
@@ -109,15 +92,10 @@ const projects = [
       "Affichage des Dernières catégories: Découverte rapide des thèmes.",
       "Redirection vers la page unique des wikis: Détails complets sur chaque wiki.",
     ],
-    technologies: [
-      { name: "HTML5", icon: "/html5.svg" },
-      { name: "CSS Framework", icon: "/css-framework.svg" },
-      { name: "JavaScript", icon: "/javascript.svg" },
-      { name: "PHP 8", icon: "/php.svg" },
-    ],
+    technologies: ["HTML5", "Tailwind CSS", "JavaScript", "PHP 8", "MySQL"],
     livePreviewUrl: "https://wiki.example.com/",
     githubUrl: "https://github.com/mohamedtergui1/wiki-cms",
-    imageSrc: "/wiki-cms.jpeg",
+    imageSrc: "/wiki.png",
   },
 ];
 
@@ -126,23 +104,22 @@ const visibleMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba
 
 export default function Projects() {
   const [imageLoaded, setImageLoaded] = useState(false);
+  
   return (
-    <div className="md:ml-40  px-4 md:px-0 mt-12 lg:mt-20">
+    <div className="md:ml-40 px-4 md:px-0 mt-12 lg:mt-20">
       <h3 className="mb-8 text-xl md:text-4xl text-white font-semibold">
         Projects
       </h3>
       {projects.map((project, index) => (
         <motion.div
           initial={{ y: 50 }}
-          animate={{
-            y: 0,
-          }}
+          animate={{ y: 0 }}
           viewport={{ amount: 0.5 }}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
           transition={{ duration: 0.5, ease: "easeIn", delay: 0.1 * index }}
           key={index}
         >
-          <div className=" card flex flex-col lg:flex-row lg:gap-12 justify-between items-start lg:items-center px-8 mb-12">
+          <div className="card flex flex-col lg:flex-row lg:gap-12 justify-between items-start lg:items-center px-8 mb-12">
             <div className="max-w-prose gray font-medium text-lg flex flex-col gap-4 w-full lg:w-1/2 mb-8 lg:mb-0">
               <h1 className="text-white text-2xl mt-4">{project.title}</h1>
               <p className="gray text-sm md:text-md leading-relaxed">
@@ -157,17 +134,14 @@ export default function Projects() {
                   </li>
                 ))}
               </ul>
-              <div className="flex flex-wrap gap-4">
+              <div className="flex flex-wrap gap-2">
                 {project.technologies.map((tech, techIndex) => (
-                  <div key={techIndex} className="flex items-center gap-2">
-                    <Image
-                      src={tech.icon}
-                      alt={`${tech.name} icon`}
-                      width={25}
-                      height={25}
-                    />
-                    <span className="font-medium text-sm">{tech.name}</span>
-                  </div>
+                  <span
+                    key={techIndex}
+                    className="px-3 py-1 bg-[#1e2d3d] text-[#607b96] rounded-full text-sm font-medium hover:bg-[#263b50] transition-colors duration-200"
+                  >
+                    {tech}
+                  </span>
                 ))}
               </div>
               <div className="flex justify-center items-center md:items-start md:justify-start flex-col sm:flex-row gap-4 md:mb-4">
@@ -188,7 +162,7 @@ export default function Projects() {
               transition={{ duration: 1, delay: 0.5 }}
               className="w-full lg:w-1/2 lg:pb-0 pb-4 lg:mt-0"
             >
-              <Image
+               <Image
                 onLoad={() => setImageLoaded(true)}
                 src={project.imageSrc}
                 alt={`${project.title} project`}
@@ -197,6 +171,7 @@ export default function Projects() {
                 height={75}
                 className="rounded-xl"
               />
+
             </motion.div>
           </div>
         </motion.div>
